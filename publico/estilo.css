@@ -1,0 +1,50 @@
+.superior {
+    text-align: end;
+    background-color: red;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    background-color: aqua;
+    height: 500px;
+    width: 1200px;
+    margin-top: 12px;
+    margin-left: 50px;
+    padding: 20px;
+    
+}
+
+.item1 {
+    background-color: red;
+    height: 100px;
+    width: 200px;
+
+}
+
+.item2 {
+    background-color: red;
+    height: 100px;
+    width: 200px;
+
+}
+
+.item3 {
+    background-color: red;
+    height: 100px;
+    width: 200px;
+
+}
+
+.item4 {
+    background-color: red;
+    height: 100px;
+    width: 200px;
+
+}
+
+.botaocomprar {
+    background-color: green;
+}
