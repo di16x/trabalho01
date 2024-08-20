@@ -1,0 +1,23 @@
+{
+  "name": "trabalho01",
+  "version": "1.0.0",
+  "description": "Trabalho para a matéria de Programação para a internet",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/di16x/trabalho01.git"
+  },
+  "keywords": [
+    "vendas"
+  ],
+  "author": "Diego Felix Tomé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/di16x/trabalho01/issues"
+  },
+  "homepage": "https://github.com/di16x/trabalho01#readme"
+}
