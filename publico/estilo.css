@@ -48,3 +48,22 @@
 .botaocomprar {
     background-color: green;
 }
+.containercadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bodycadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: lightgrey;
+
+}
