@@ -13,6 +13,7 @@ app.use(express.static('./publico'));
 app.use(express.static('./privado'));
 
 app.get('/login',(requisicao,resposta) => {resposta.redirect('/login.html');
+  
     
 });
 
