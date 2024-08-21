@@ -1,4 +1,5 @@
 import express from 'express';
+import autenticar from './seguranca/autenticar.js';
 
 const host = '0.0.0.0';
 
@@ -12,7 +13,7 @@ app.get('/login',(requisicao,resposta) => {resposta.redirect('/login.html');
     
 });
 
-app.post('/login',(requisicao,resposta) => {});
+app.post('/login',autenticar);
 
 
 app.listen(porta,host, () => {

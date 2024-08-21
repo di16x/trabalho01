@@ -8,13 +8,15 @@
 </head>
 <body>
    <div class="container">
-    <div class="box">
-     <h1>Entrar</h1>
-     <input type="text" id="usuario" name = "usuario" placeholder="usuario" required> 
-     <input type="password" id="senha" name = "senha" placeholder="senha" required> 
+     <div class="box">
+        <form method="post" action="/login">
+         <h1>Entrar</h1>
+            <input type="text" id="usuario" name = "usuario" placeholder="usuario" required> 
+         <input type="password" id="senha" name = "senha" placeholder="senha" required> 
      
-     <button type="submit">Login</button>
-    </div>
+            <button type="submit">Login</button>
+        </form>
+     </div>
 
    </div>
     
