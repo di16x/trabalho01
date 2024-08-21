@@ -12,6 +12,8 @@ app.get('/login',(requisicao,resposta) => {resposta.redirect('/login.html');
     
 });
 
+app.post('/login',(requisicao,resposta) => {});
+
 
 app.listen(porta,host, () => {
     console.log(`Servidor rodando em http://${host}:${porta}`);
