@@ -6,6 +6,9 @@ const host = '0.0.0.0';
 const porta = 3000;
 const app = express();
 
+
+app.use(express.urlencoded ({extended:true}));
+
 app.use(express.static('./publico'));
 app.use(express.static('./privado'));
 
