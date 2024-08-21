@@ -13,20 +13,27 @@
 
     <div class="fundo-compras"> 
         <h3>Escolha para qual evento deseja comprar:</h3>
-        <p><input type="checkbox" name="Sushi" id="Sushi">3ª Festa Nacional do Sushi</p>
-        </p><input type="checkbox" name="Cover" id="Cover">Show de Cover</p>
-        </p><input type="checkbox" name="Food" id="Food">Semana do Food-Truck</p>
-        </p><input type="checkbox" name="Primavera" id="Primavera">Festa da Primavera</p>
+        <p><input type="checkbox" name="Sushi" id="Sushi" data-price="35" onchange="atualizaTotal()">3ª Festa Nacional do Sushi, R$ 35,00</p>
+
+        </p><input type="checkbox" name="Cover" id="Cover" data-price="15" onchange="atualizaTotal()">Show de Cover, R$ 15,00</p>
+
+        </p><input type="checkbox" name="Food" id="Food" data-price="40" onchange="atualizaTotal()">Semana do Food-Truck, R$ 40,00</p>
+
+        </p><input type="checkbox" name="Primavera" id="Primavera" data-price="0" onchange="atualizaTotal()">Festa da Primavera, Gratuito</p>
     </div>
 
     <div class="carrinho">
-        Minhas compras: 
+        <p>
+            <h1 class="h1compras">Minhas Compras:</h1></p>
+        <h2 class="total">Total: R$ <span id="total">0.00</span></h2>
     </div>
     
-    <div>
+    <div class="buttoncompras">
         <button>Voltar</button>
-        <button> Salvar</button>
+        <button onclick="alerta()"> Comprar </button>
         
     </div>
+    <script src="pagina.js"></script>
 </body>
+
 </html>
