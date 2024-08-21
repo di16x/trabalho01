@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/di16x/trabalho01/issues"
   },
-  "homepage": "https://github.com/di16x/trabalho01#readme"
+  "homepage": "https://github.com/di16x/trabalho01#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
