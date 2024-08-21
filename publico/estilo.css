@@ -67,3 +67,15 @@
     background-color: lightgrey;
 
 }
+.navlogin {
+    background-color: black;
+    margin-top: 0%;
+    color: aliceblue;
+    
+}
+
+.container-nav {
+    display: flex;
+    text-align: center;
+
+}
