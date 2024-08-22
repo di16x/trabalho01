@@ -141,3 +141,8 @@ p {
 .link-cadastro {
     color: #050B0D;
 }
+.button-cadastro { 
+    background-color: #D96725;
+    margin-top: 10px;
+
+}
